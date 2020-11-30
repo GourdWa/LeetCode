@@ -1,0 +1,58 @@
+990. 等式方程的可满足性
+思路
+构建一个长度为26的数组（因为等式只包含小写字母），例如arr[0]代表字母a的值，arr[1]代表字母b的值
+第一轮将所有相等的等式找出，例如a==b;b==c；那么要使arr[0]、arr[1]和arr[2]中的值都相等
+for (String equation : equations) {
+    char a = equation.charAt(0);
+    char b = equation.charAt(3);
+    if (a == b)
+        if (equation.charAt(1) == '!')
+            return false;
+        else
+            continue;
+    else if (equation.charAt(1) == '=') {
+        //也就是大家都是第一次出现
+        if (equal[a - 'a'] == -1 && equal[b - 'a'] == -1) {
+            //令他们对应的数组的值相等
+            equal[a - 'a'] = a;
+            equal[b - 'a'] = a;
+        } else if (equal[a - 'a'] != -1 && equal[b - 'a'] == -1) {
+            //如果其中一个字符已经出现过等式，那么令未出现的字符数组的值等于已出现的值
+            equal[b - 'a'] = equal[a - 'a'];
+        } else if (equal[a - 'a'] == -1 && equal[b - 'a'] != -1) {
+            //如果其中一个字符已经出现过等式，那么令未出现的字符数组的值等于已出现的值
+            equal[a - 'a'] = equal[b - 'a'];
+        } else if (equal[a - 'a'] != equal[b - 'a']) {
+            //如果两个都出现过了,比如a=b;c=d;a=d。因为a、b和c、d都有值了，但是此时出现了a=d，可知推出a,b,c,d都相等
+            //因此此时将其中一个出现的值用另一个值代替
+            int t = equal[b - 'a'];
+            for (int i = 0; i < equal.length; i++) {
+                if (equal[i] == t)
+                    equal[i] = equal[a - 'a'];
+            }
+        }
+    }
+}
+最后依次找出不等的式子
+for (String equation : equations) {
+    char a = equation.charAt(0);
+    char b = equation.charAt(3);
+    if (equation.charAt(1) == '!') {
+        if (equal[a - 'a'] == equal[b - 'a'] && equal[b - 'a'] != -1)
+            return false;
+    }
+}
+************************************************************************************************************************
+34. 在排序数组中查找元素的第一个和最后一个位置
+思路
+也就是在一个排序数组中寻找target的左右边界，例如nums=[1,2,2,4,5],target=2，那么左边界是1，右边界是2.如果数组中不存在
+target那么左右边界都是-1
+要求算法的时间复杂度是log2n，因此只有使用二分查找实现左右边界
+查找左边界时
+如果nums[mid]>=target时，此时不要返回，使high = mid-1;如果nums[mid]<target时，low=mid+1.循环退出的条件仍然是low>high
+但是需要注意，例如上面的数组中搜索6，此时循环退出时low=5，大于数组的边界，此时应该返回-1；如果搜索0，退出循环时low=0，但是
+nums[low]!=target，也应该返回-1。其他时候，例如搜索3，推出循环时low=3，但是nums[low]!=target，也应该返回-1
+综上，在退出循环时，如果low超出数组的边界或者nums[low]!=target就返回-1，其他时候都说明存在即返回low，此时low就是左边界；
+查找右边界时
+如果nums[mid]<=target时，low=mid+1；如果nums[mid]>target时，high=mid-1。
+退出循环返回值的分析同上，在退出循环时，如果high<0或者nums[high]!=target就返回-1，否则就返回low

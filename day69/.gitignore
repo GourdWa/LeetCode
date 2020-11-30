@@ -1,0 +1,6 @@
+#!./src
+**/*.class
+**/*.xml
+./out
+./.idea
+**/*.iml

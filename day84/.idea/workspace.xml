@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="397929c8-ce62-497b-a7fe-101dbc7a2518" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iLSzP3xmZyhtroLuZubOt5Hxk8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="397929c8-ce62-497b-a7fe-101dbc7a2518" name="Default Changelist" comment="" />
+      <created>1601685640459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601685640459</updated>
+      <workItem from="1601685641738" duration="1731000" />
+      <workItem from="1601727320623" duration="3000" />
+      <workItem from="1601773415047" duration="3668000" />
+    </task>
+    <task id="LOCAL-00001" summary="day84&#10;题号：771. 宝石与石头&#10;思路：&#10;字符串简单遍历&#10;************************************************************************************************************************&#10;题号：1. 两数之和&#10;思路：&#10;哈希表&#10;************************************************************************************************************************&#10;题号：2. 两数相加&#10;思路：&#10;链表遍历&#10;************************************************************************************************************************&#10;题号：LCP 19. 秋叶收藏集&#10;思路：&#10;不会的动态规划。&#10;f[i][j]，其中j的取值只能为0，1，2.分别代表前面的红色，中间的黄色和后面的红色。i代表，前面[0~i-1)位置上的颜色都调整好了，且满足要求时的最小调&#10;整步骤；此时要调整第i个位置上的颜色。&#10;************************************************************************************************************************">
+      <created>1601781575535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601781575535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day84&#10;题号：771. 宝石与石头&#10;思路：&#10;字符串简单遍历&#10;************************************************************************************************************************&#10;题号：1. 两数之和&#10;思路：&#10;哈希表&#10;************************************************************************************************************************&#10;题号：2. 两数相加&#10;思路：&#10;链表遍历&#10;************************************************************************************************************************&#10;题号：LCP 19. 秋叶收藏集&#10;思路：&#10;不会的动态规划。&#10;f[i][j]，其中j的取值只能为0，1，2.分别代表前面的红色，中间的黄色和后面的红色。i代表，前面[0~i-1)位置上的颜色都调整好了，且满足要求时的最小调&#10;整步骤；此时要调整第i个位置上的颜色。&#10;************************************************************************************************************************" />
+    <option name="LAST_COMMIT_MESSAGE" value="day84&#10;题号：771. 宝石与石头&#10;思路：&#10;字符串简单遍历&#10;************************************************************************************************************************&#10;题号：1. 两数之和&#10;思路：&#10;哈希表&#10;************************************************************************************************************************&#10;题号：2. 两数相加&#10;思路：&#10;链表遍历&#10;************************************************************************************************************************&#10;题号：LCP 19. 秋叶收藏集&#10;思路：&#10;不会的动态规划。&#10;f[i][j]，其中j的取值只能为0，1，2.分别代表前面的红色，中间的黄色和后面的红色。i代表，前面[0~i-1)位置上的颜色都调整好了，且满足要求时的最小调&#10;整步骤；此时要调整第i个位置上的颜色。&#10;************************************************************************************************************************" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="85" key="CommitChangelistDialog2" timestamp="1601781574852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601781574852" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601781577207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601781577207" />
+    <state x="334" y="130" key="new project wizard" timestamp="1601781599914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601781599914" />
+  </component>
+</project>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bfd479b-a0b2-4f67-aa40-912d30e96b3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iObUPtxmxPn1eO1ZdE4cwPrqX6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.LeetCode75">
+    <configuration name="LeetCode18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode18" />
+      <module name="day85" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode75" />
+      <module name="day85" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LeetCode75" />
+        <item itemvalue="Application.LeetCode18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bfd479b-a0b2-4f67-aa40-912d30e96b3d" name="Default Changelist" comment="" />
+      <created>1601781600566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601781600566</updated>
+      <workItem from="1601781601887" duration="597000" />
+      <workItem from="1601813076016" duration="25000" />
+      <workItem from="1601862296112" duration="3319000" />
+      <workItem from="1602039883806" duration="4690000" />
+      <workItem from="1602062116568" duration="15000" />
+      <workItem from="1602204330649" duration="860000" />
+    </task>
+    <task id="LOCAL-00001" summary="day85&#10;题号：18. 四数之和&#10;思路：&#10;魔改三数之和。相似题目：三数之和&#10;************************************************************************************************************************&#10;题号：75. 颜色分类&#10;思路：&#10;排序算法；双指针，重点掌握这里双指针的巧妙使用&#10;************************************************************************************************************************&#10;题号：141. 环形链表&#10;思路：&#10;链表快慢指针的使用&#10;************************************************************************************************************************">
+      <created>1602205172218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602205172218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day85&#10;题号：18. 四数之和&#10;思路：&#10;魔改三数之和。相似题目：三数之和&#10;************************************************************************************************************************&#10;题号：75. 颜色分类&#10;思路：&#10;排序算法；双指针，重点掌握这里双指针的巧妙使用&#10;************************************************************************************************************************&#10;题号：141. 环形链表&#10;思路：&#10;链表快慢指针的使用&#10;************************************************************************************************************************" />
+    <option name="LAST_COMMIT_MESSAGE" value="day85&#10;题号：18. 四数之和&#10;思路：&#10;魔改三数之和。相似题目：三数之和&#10;************************************************************************************************************************&#10;题号：75. 颜色分类&#10;思路：&#10;排序算法；双指针，重点掌握这里双指针的巧妙使用&#10;************************************************************************************************************************&#10;题号：141. 环形链表&#10;思路：&#10;链表快慢指针的使用&#10;************************************************************************************************************************" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="85" key="CommitChangelistDialog2" timestamp="1602205171766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602205171766" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1602062066291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602062066291" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602205173718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602205173718" />
+    <state x="334" y="130" key="new project wizard" timestamp="1602205195219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602205195219" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode18.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode75.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode75.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

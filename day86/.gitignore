@@ -1,0 +1,5 @@
+**/*.class
+**/*.xml
+.idea
+**/*.iml
+!**/src
